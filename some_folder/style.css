@@ -1,0 +1,364 @@
+* {
+    box-sizing: border-box ;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #DEE6F0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #8D97AD;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.mbri-sites,
+.mbri-photo,
+.mbri-apple {
+    font-size: 25px; 
+}
+
+body > header {
+    background: url(images/background.jpg) no-repeat fixed ;
+    padding-top: 50px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.headers {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.heading,
+.subheading {
+    text-align: center;
+    color: black;
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+span {
+    font-weight: 700;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 20px;
+}
+
+.news_row {
+    width: 30%;
+    background: #fff ;
+    position: relative;
+    box-shadow: 0 0 20px 0 #999;
+    padding: 45px 20px 30px;
+    font-weight: 300;
+}
+
+.news_row h2 {
+    text-align: left;
+    font-weight: 300;
+    color: black;
+    font-size: 14px;
+}
+
+.news_row .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background: #1290F8;
+    position: absolute;
+    left: 20px;
+    top: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.news_row a {
+    color: #03A9F4;
+    text-decoration: none;
+}
+
+.news_row a:hover .read-more-hover {
+    margin-left: 10px;
+    transition: .5s linear;
+}
+
+.subheading {
+    font-size: 1.2rem;
+    color: #8D97AD;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    width: 1050px;
+    padding-bottom: 90px;
+    
+}
+
+.about-us  h1 {
+    text-align: left;
+}
+.about-us h2 {
+    font-size: 19px;
+    text-align: left;
+}
+
+.about_left {
+    text-align: left;
+    padding: 0 24px 0 15px;
+}
+
+.btn {
+    background: #1290F8;
+    font-weight: 400;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background: #0966B7;
+}
+
+.btn a {
+    display: block;
+    margin-top: 10px;
+     height: 100%;
+    text-decoration: none;
+    color: #fff;
+} 
+
+.img {
+    display: block;
+    box-shadow: 0 0 20px 0 #999;
+}
+
+.img img {
+    vertical-align: middle;
+    width: 475px;
+    height: 356px;
+}
+ul {
+    color: black;
+    list-style: none;
+    line-height: 15px;
+    padding: 0;
+}
+
+ul  span {
+    margin-right:  10px;
+    color: #03A9F4;
+}
+
+li {
+    line-height: 45px;
+    font-size: 18px;
+}
+
+.features {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    }
+
+.features h1,h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.features h1 {
+    font-size: 40px;
+    color: #000;
+}
+
+.features h2 {
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-item {
+    width: 255px;
+    height: 173px;
+    color: #000;
+    background: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px 0 #aaa;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+
+.row-item:hover {
+    background: linear-gradient(90deg,#369898,#55D7AA);
+    color: #fff;
+}
+
+.wrapper{
+    margin-top: 0;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 16px;
+}  
+
+.mbri-search,
+.mbri-briefcase,
+.mbri-magic-stick,
+.mbri-growing-chart,
+.mbri-like,
+.mbri-rocket,
+.mbri-print,
+.mbri-setting {
+    font-size: 50px;
+    color: #1DC9CB;
+}
+
+.team-list h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.employee-row {
+    display: flex;
+}
+.employee {
+    margin: 20px;
+}
+
+.employee h2 {
+    text-align: left;
+    padding: 10px 0 0;
+    color: #000;
+}
+
+.employee h3, p {
+    padding: 0 10px 10px 0;
+    margin: 0;
+}
+
+.employee-img {
+    margin: 0 auto;
+}
+
+.employee-img img {
+    align-content: center;
+    width: 245px;
+    height: 245px;
+}
+
+.achievments-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.achievments  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    margin-top: 30px;
+}
+
+.achievment {
+    display: flex;
+   align-items: center;
+    margin: 10px;
+}
+
+.achievment 
+.mbri-like,
+.mbri-users,
+.mbri-timer,
+.mbri-smile-face {
+    font-size: 50px;
+    color: #1290F8;
+    margin-right: 20px;
+}
+
+.achievments-text h1 {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
